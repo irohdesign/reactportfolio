@@ -1,0 +1,65 @@
+/* global */
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Staatliches', sans-serif;
+}
+
+/* site-header */
+
+#site-header h1 {
+    font-size: 80px;
+    margin: 0;
+    position: relative;
+    top: 25px;
+    left: 8%;
+    /* text-align: center; */
+}
+
+/* navigation */
+
+#nav-heading {
+    background: black;
+    color: white;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+#main-nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-family: 'Varela Round';
+}
+
+#main-nav ul li img {
+    background: white;
+}
+
+/* card */
+
+#work h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    width: 85%;
+    margin: auto;
+}
+
+.card {
+    background: pink;
+}
