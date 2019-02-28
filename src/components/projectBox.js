@@ -9,7 +9,7 @@ function ProjectBox(props) {
 
             <div className="information">
                 <h2>{props.name}</h2>
-                <ul>
+                <ul id="project-ul">
                     {props.tech.map((item, index) => (
                         <li key="index" item="item">{item}</li>
                     ))}

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Header from "./components/Header.js";
 import projects from "./projects.json";
 import ProjectBox from "./components/projectBox.js";
-import Footer from "./components/footer.js";
+import Footer from "./components/Footer.js";
 
 class App extends Component {
 
